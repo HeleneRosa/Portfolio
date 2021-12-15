@@ -14,39 +14,11 @@
 body{
     margin: 0;
 }
-#farverbillede{
-    width: 100%;
-    top: 0px;
-    left: 0px;
-    position: relative;
-}
-#logo{
-    width: 10%;
-    top: 0px;
-    left: 0px;
-    position: absolute;
-}
+
+
 #topdel{
     position: relative;
     text-align: center;
-}
-#navn{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    color: black;
-    font-family: asap-bold;
-    font-size: 200%;
-}
-#se-mere{
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    color: black;
-    font-family: asap-regular;
-    font-size: 100%;  
 }
 .topnav {
     background-color: #deb2cc;
@@ -54,66 +26,217 @@ body{
     display: flex;
     justify-content: space-evenly;
   }
-  
-  .topnav a {
-    float: left;
-    color: #000;
-    text-align: center;
-    padding: 14px 16px;
+@media only screen and (max-width:400px){
+    #farverbillede{
+        width: 100%;
+        top: 0px;
+        left: 0px;
+        position: relative;
+    }
+    #logo{
+        width: 10%;
+        top: 0px;
+        left: 0px;
+        position: absolute;
+    }
+    #navn{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: black;
+        font-family: asap-bold;
+        font-size: 200%;
+    }
+    #se-mere{
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: black;
+        font-family: asap-regular;
+        font-size: 100%;  
+        
+    }
+    .topnav a {
+        float: left;
+        color: #000;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px; 
+        font-family: asap-regular; 
+      }
+      .om-mig{
+        display: flex;
+        float: none;
+        text-align: center;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    #om-mig-tekst{
+        font-family: asap-regular;
+        text-align: left;
+        width: 80%;
+        margin: auto;
+    }
+    #cv-tekst{
+        font-family: asap-regular;
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+    .knap{
+        width: 40%;
+        margin: auto;
+        font-family: asap-regular;
+        background-color: #96B1B3; 
+        border: none;
+        font-size: 20px;
+        
+    }
+     /* Der er her funder inspiration i et tidligere projekt under dansx3 - ballet (om os-siden).*/
+    main{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        font-family: asap-mediumitalic;
+        height: 65px;
+    }
+    .portfolioknap{
+        border: 2px solid;
+        border-color: #dcbf81;
+        width: 20%;
+        text-align: center;
+
+    }
+    #Opdateres{
+        font-family: asap-regular;
+        text-align: center;
+        width: 80%;
+        margin: auto;
+     }
+
+}
+@media only screen and (min-width:400px){
+    #farverbillede{
+        width: 100%;
+        height: 300px;
+        top: 0px;
+        left: 0px;
+        position: relative;
+    }
+    #logo{
+        width: 8%;
+        top: 0px;
+        left: 0px;
+        position: absolute;
+    }
+    #navn{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: black;
+        font-family: asap-bold;
+        font-size: 400%;
+    }
+    #se-mere{
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: black;
+        font-family: asap-regular;
+        font-size: 200%;  
+    }
+    .topnav a {
+        float: left;
+        color: #000;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 25px; 
+        font-family: asap-regular; 
+      }
+      .om-mig{
+        display: flex;
+        float: none;
+        text-align: center;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    #om-migoverskrift{
+        font-size: 150%;
+    }
+    #helene{
+        width: 20%;
+    }
+    #om-mig-tekst{
+        font-family: asap-regular;
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+    #cvoverskrift{
+        font-size: 150%;
+    }
+    #cv-tekst{
+        font-family: asap-regular;
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+    .knap{
+        width: 20%;
+        margin: auto;
+        font-family: asap-regular;
+        background-color: #96B1B3; 
+        border: none;
+        font-size: 30px;
+        
+    }
+     /* Der er her funder inspiration i et tidligere projekt under dansx3 - ballet (om os-siden).*/
+    main{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        font-family: asap-mediumitalic;
+        height: 65px;
+    }
+    .portfolioknap{
+        border: 2px solid;
+        border-color: #dcbf81;
+        width: 10%;
+        text-align: center;
+
+    }
+    #Opdateres{
+        font-family: asap-regular;
+        text-align: center;
+        width: 80%;
+        margin: auto;
+        font-size: 130%;
+     }
+
+
+}
+#se-mere a{
     text-decoration: none;
-    font-size: 17px; 
-    font-family: asap-regular; 
-  }
+    color: #000;
+}
+
   
   .topnav a:hover {
     background-color: #f5f5f5;
     color: black;
   }
-  .om-mig{
-      display: flex;
-      float: none;
-      text-align: center;
-      width: 100%;
-      justify-content: center;
-      align-items: center;
-  }
-  #om-mig-tekst{
-      font-family: asap-regular;
-      text-align: left;
-      width: 80%;
-      margin: auto;
-  }
-  #cv-tekst{
-      font-family: asap-regular;
-      text-align: center;
-      width: 80%;
-      margin: auto;
-  }
-  .knap{
-      width: 40%;
-      margin: auto;
-      font-family: asap-regular;
-      background-color: #96B1B3; 
-      border: none;
-      font-size: 20px;
-      
-  }
-  /* Der er her funder inspiration i et tidligere projekt under dansx3 - ballet (om os-siden).*/
-  main{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    font-family: asap-mediumitalic;
-    height: 65px;
-  }
-  .portfolioknap{
-      border: 2px solid;
-      border-color: #dcbf81;
-      width: 20%;
-      text-align: center;
-
-  }
+  
+ 
   .portfolioknap a{
       text-decoration: none;
       color: #96B1B3;
