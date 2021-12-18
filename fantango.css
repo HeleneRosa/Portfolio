@@ -10,6 +10,9 @@
     font-family: asap-mediumitalic;
     src: url(assets/Asap/static/Asap-MediumItalic.ttf);
 }
+#opslag{
+    text-align: center;
+}
 
 body{
     margin: 0;

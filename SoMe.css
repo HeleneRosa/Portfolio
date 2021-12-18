@@ -20,7 +20,9 @@ body{
     display: flex;
     justify-content:right;
 }
-
+#opslag{
+    text-align: center;
+}
 
 @media only screen and (max-width:400px){
     #logo{

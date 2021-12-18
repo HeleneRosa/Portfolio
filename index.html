@@ -9,8 +9,8 @@
 </head>
 <body>
   <section>
-      <div id="topdel">
-          <img id=farverbillede src="assets/farver.png">
+      <div class="topdel">
+          <img id=farverbillede src="assets/farver.png" alt="Billede med farver">
           
           <div id=navn>
               Helene Rosa Rosing
@@ -18,7 +18,7 @@
           <div id=se-mere>
               <a href="#om-migoverskrift">Se mere</a>
           </div>
-          <img id=logo src="assets/logo.png">
+          <img id=logo src="assets/logo.png" alt="Logo">
       </div>
       <div class="topnav">
               
@@ -29,7 +29,7 @@
             <a href="#portfoliooverskrift">Portfolio</a>
               
       </div>
-         <center><a id="om-migoverskrift"><h3>Om mig</h3></a></center>
+        <a id="om-migoverskrift"><h3 class="overskrifter">Om mig</h3></a>
       <div class="om-mig">
           <img id=helene src="assets/helene.png" alt="Billede af Helene">
       </div>
@@ -45,23 +45,25 @@
         </div>
         
         <br><br>
-        <center><a id="cvoverskrift"><h3>CV</h3></a></center>
+        <a id="cvoverskrift"><h3 class="overskrifter">CV</h3></a>
         <div id="cv-tekst">
             <p>
                 Her er der mulighed for at se mine tidligere erfaringer i mit CV.
             </p>
         </div>
-        <center>
-            <a href="assets/CV - opdateret.pdf">
-                <button class="knap">
-                    Hent CV her
-                </button>
-            </a>
-        </center>
+        <div class="topdel">
+           
+                <div class="knap">
+                   <a href="assets/CV-opdateret.pdf">
+                       Hent CV her
+                    </a>
+                </div>
+          
+        </div>
         <br><br>
-        <center><a id="portfoliooverskrift"><h3>Portfolio</h3></a></center>
+        <a id="portfoliooverskrift"><h3 class="overskrifter">Portfolio</h3></a>
         
-        <main>
+        <div class="projekter">
             <div class="portfolioknap">
                 <a href="fantango.html"> <p>Fantango</p></a>
             </div>
@@ -71,17 +73,13 @@
             <div class="portfolioknap">
                 <a href="SoMe.html"><p>SoMe</p></a>
             </div>
-        </main>
+        </div>
 
         <div id="Opdateres">
             <p>
                 Opdateres løbende...
             </p>
         </div>
-
-
-        
-
-  </section>  
+    </section>
 </body>
 </html>
