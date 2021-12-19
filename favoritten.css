@@ -41,6 +41,7 @@ body{
     }
     h3{
         font-size: 250%;
+        font-family: asap-regular;
     }
     .favoritten{
         display: flex;
@@ -58,11 +59,7 @@ body{
         text-align: center;
         width: 80%;
         margin: auto;
-    
-    
     }
-
-
 }
 
 @media only screen and (min-width:400px){
@@ -83,6 +80,7 @@ body{
     }
     h3{
         font-size: 250%;
+        font-family: asap-regular;
     }
     .favoritten{
         display: flex;

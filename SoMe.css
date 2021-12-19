@@ -42,6 +42,7 @@ body{
     }
     h3{
         font-size: 250%;
+        font-family: asap-regular;
     }
     .some{
         display: flex;
@@ -60,9 +61,6 @@ body{
         width: 80%;
         margin: auto;
     }
-
-
-
 }
 
 
@@ -84,6 +82,7 @@ body{
     }
     h3{
         font-size: 250%;
+        font-family: asap-regular;
     }
     .some{
         display: flex;
@@ -103,9 +102,6 @@ body{
         margin: auto;
         font-size: 130%;
     }
-
-
-
 }
 
 .nav a:hover {

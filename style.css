@@ -19,9 +19,9 @@ body{
     margin: 0;
 }
 .overskrifter{
-text-align: center;
-font-size: 26px;
-font-family: asap-semibold;
+    text-align: center;
+    font-size: 26px;
+    font-family: asap-semibold;
 }
 
 
@@ -35,6 +35,9 @@ font-family: asap-semibold;
     display: flex;
     justify-content: space-evenly;
   }
+
+  /*Her er der til en mobilstørrelse*/
+
 @media only screen and (max-width:400px){
     #farverbillede{
         width: 100%;
@@ -110,7 +113,7 @@ font-family: asap-semibold;
         transform: translate(-50%, -0%);
         
     }
-     /* Der er her funder inspiration i et tidligere projekt under dansx3 - ballet (om os-siden).*/
+     
     .projekter{
         width: 100%;
         display: flex;
@@ -134,6 +137,7 @@ font-family: asap-semibold;
      }
 
 }
+/*Her er til en desktop*/
 @media only screen and (min-width:400px){
     #farverbillede{
         width: 100%;
@@ -175,7 +179,7 @@ font-family: asap-semibold;
         font-size: 25px; 
         font-family: asap-regular; 
       }
-      .om-mig{
+    .om-mig{
         display: flex;
         float: none;
         text-align: center;
@@ -217,7 +221,6 @@ font-family: asap-semibold;
         transform: translate(-50%, -0%);
         
     }
-     /* Der er her funder inspiration i et tidligere projekt under dansx3 - ballet (om os-siden).*/
     .projekter{
         width: 100%;
         display: flex;
@@ -247,29 +250,24 @@ font-family: asap-semibold;
     text-decoration: none;
     color: #000;
 }
-
-  
-  .topnav a:hover {
+.topnav a:hover {
     background-color: #f5f5f5;
     color: black;
-  }
-  
- 
-  .portfolioknap a{
-      text-decoration: none;
-      color: #96B1B3;
-  }
- #Opdateres{
+}
+.portfolioknap a{
+    text-decoration: none;
+    color: #96B1B3;
+}
+#Opdateres{
     font-family: asap-regular;
     text-align: center;
     width: 80%;
     margin: auto;
- }
- .knap a{
-     text-decoration: none;
-     color: #000;
-     
- }
+}
+.knap a{
+    text-decoration: none;
+     color: #000;    
+}
 
 
 
