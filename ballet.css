@@ -44,7 +44,7 @@ body{
         font-size: 250%;
         font-family: asap-regular;
     }
-    .some{
+    .ballet{
         display: flex;
         float: none;
         text-align: center;
@@ -52,10 +52,10 @@ body{
         justify-content: center;
         align-items: center;
     }
-    #SoMebillede{
+    #balletbillede{
         width: 90%;
     }
-    #SoMe-tekst{
+    #ballet-tekst{
         font-family: asap-regular;
         text-align: center;
         width: 80%;
@@ -84,7 +84,7 @@ body{
         font-size: 250%;
         font-family: asap-regular;
     }
-    .some{
+    .ballet{
         display: flex;
         float: none;
         text-align: center;
@@ -92,10 +92,10 @@ body{
         justify-content: center;
         align-items: center;
     }
-    #SoMebillede{
+    #balletbillede{
         width: 40%;
     }
-    #SoMe-tekst{
+    #ballet-tekst{
         font-family: asap-regular;
         text-align: center;
         width: 80%;
